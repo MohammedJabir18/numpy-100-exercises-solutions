@@ -2,72 +2,98 @@
 
 ![NumPy 100 Mastery Banner](assets/banner.svg)
 
-# 🚀 NumPy 100 Challenge: Hands-On Practice Arena
+# 🚀 100 NumPy Challenge: My Learning Journey & Practice Template
 
-**An interactive, hands-on practice repository designed for manually solving the famous 100 NumPy exercises from Keith Galli's video challenge.**
+**A public, hands-on challenge repository tracking my journey through the famous 100 NumPy exercises — designed for my own manual practice and as a reference template for other learners.**
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Author](https://img.shields.io/badge/Challenger-Mohammed%20Jabir-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohammedJabir18)
+[![Challenge Status](https://img.shields.io/badge/Challenge-In%20Progress-F59E0B?style=for-the-badge&logo=target&logoColor=white)](notebooks/)
+[![Progress](https://img.shields.io/badge/Progress-0%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
 [![NumPy 2.x](https://img.shields.io/badge/numpy-2.x%20Ready-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Lab%20%7C%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Challenges](https://img.shields.io/badge/challenges-100%2F100-38BDF8?style=for-the-badge&logo=target&logoColor=white)](notebooks/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-[Quick Start](#-quick-start) • [Practice Notebooks](#-the-7-practice-notebooks) • [Reference Solutions](solutions/reference_solutions.md) • [100 Exercises Index](#-master-index--progress-tracker) • [Attribution](#-acknowledgments--credits)
+[About This Challenge](#-about-this-challenge) • [For Other Learners](#-how-other-learners-can-use-this-repo) • [Quick Start](#-quick-start) • [The 7 Notebooks](#-the-7-practice-notebooks) • [My Progress Tracker](#-master-progress-tracker--checklist) • [Reference Solutions](solutions/reference_solutions.md)
 
 </div>
 
 ---
 
-## 🎯 Designed for Manual Problem-Solving
+## 🎯 About This Challenge
 
-This repository is built for **you to manually code, experiment, and solve all 100 challenges**.
+Welcome! I created this repository as a public commitment to manually tackle and master the famous **[100 numpy exercises](https://github.com/rougier/numpy-100)** curated by Nicolas P. Rougier, inspired by Keith Galli's video walkthrough **["Solving 100 Python NumPy Problems! (From easy to difficult)"](https://www.youtube.com/watch?v=PM504XhEVCU)**.
 
-- 📝 **Empty Coding Cells:** Every exercise in `notebooks/` provides a clean workspace for you to write your code from scratch.
-- 💡 **Collapsible Hints:** Need a nudge? Each problem includes a `<details>` dropdown hint with suggested functions (e.g. `np.pad`, `np.bincount`, `sliding_window_view`) without giving away the full answer right away.
-- 🎯 **Expected Outputs:** Know exactly what your code should produce before running it.
-- 📖 **Hidden Reference Solutions:** When you've solved an exercise (or get completely stuck), you can cross-check with the [Reference Solutions](solutions/reference_solutions.md).
+### 🥊 My Challenge Rules:
+1. **Solve Manually First:** Every single exercise is written and solved from scratch in the notebooks without copying pre-written solutions.
+2. **Modern NumPy 2.x Practices:** Emphasize modern idioms (e.g. `@` matrix multiplication, `np.lib.stride_tricks.sliding_window_view`, `default_rng()`, vectorized logic).
+3. **Deep Understanding over Quick Answers:** Understand the underlying mechanics—memory layout (`nbytes`, strides), broadcasting rules, and avoiding unnecessary copies.
+4. **Public Progress:** Continuously commit and check off challenges in the tracker below as I complete them.
+
+```text
+Current Progress: [░░░░░░░░░░░░░░░░░░░░] 0 / 100 Solved (0%)
+```
+
+---
+
+## 🤝 How Other Learners Can Use This Repo
+
+If you are learning NumPy, data science, or scientific computing in Python, this repository is built to help you too! Here is how you can use it:
+
+### 1. 🍴 Fork or Clone as Your Own Practice Template
+You can fork or clone this repository to start your own 100-problem challenge:
+```bash
+git clone https://github.com/MohammedJabir18/numpy-100-exercises-solutions.git
+cd numpy-100-exercises-solutions
+```
+All notebooks in `notebooks/` come with **clean, empty coding cells**, challenge instructions, difficulty ratings, and expected outputs.
+
+### 2. 💡 Collapsible Dropdown Hints
+Stuck on an exercise? Each problem includes a closed `<details><summary>💡 Hint</summary></details>` section. You can try solving it independently, and only expand the hint if you need a conceptual nudge.
+
+### 3. 🔍 Cross-Check Your Work
+Once you've written your solution in the notebook, you can compare your approach with the [Reference Solutions](solutions/reference_solutions.md) to discover alternative methods, performance trade-offs, and common pitfalls.
+
+### 4. 💬 Share & Discuss
+If you discover a faster, cleaner, or more elegant NumPy one-liner for any challenge, feel free to open an **Issue** or submit a **Pull Request**!
 
 ---
 
 ## ⚡ Quick Start
 
-### 1. Clone & Navigate
+### 1. Set Up Environment
 ```bash
+# Clone the repository
 git clone https://github.com/MohammedJabir18/numpy-100-exercises-solutions.git
 cd numpy-100-exercises-solutions
-```
 
-### 2. Setup Virtual Environment
-```bash
-# Windows
+# Create virtual environment
 python -m venv .venv
+
+# Activate virtual environment
+# Windows:
 .venv\Scripts\activate
-
-# macOS / Linux
-python3 -m venv .venv
+# macOS / Linux:
 source .venv/bin/activate
-```
 
-### 3. Install Dependencies
-```bash
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 4. Launch Jupyter & Start Solving!
+### 2. Launch JupyterLab
 ```bash
 jupyter lab
 ```
-Navigate to `notebooks/01_array_creation_and_basics.ipynb` and start coding!
+Open [`notebooks/01_array_creation_and_basics.ipynb`](notebooks/01_array_creation_and_basics.ipynb) and start coding!
 
 ---
 
 ## 📚 The 7 Practice Notebooks
 
-All 100 exercises are organized across 7 progressive topic notebooks:
+All 100 challenges are split into 7 progressive topics:
 
-| # | Practice Notebook | Exercises | Difficulty | Focus Areas |
+| # | Practice Notebook | Exercises | Difficulty | Core Topics |
 |---|---|:---:|:---:|---|
-| **01** | [01. Array Basics & Creation](notebooks/01_array_creation_and_basics.ipynb) | 01–15 | `★☆☆` | Array instantiation, `nbytes`, memory size, zeros/ones, slicing reversal |
+| **01** | [01. Array Basics & Creation](notebooks/01_array_creation_and_basics.ipynb) | 01–15 | `★☆☆` | Array creation, `nbytes`, memory size, zeros/ones, slicing reversal |
 | **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
 | **03** | [03. Math, Statistics & Broadcasting](notebooks/03_math_statistics_and_broadcasting.ipynb) | 31–45 | `★☆☆` - `★★☆` | `datetime64` calendars, in-place arithmetic (`out=`), generators, polar coordinates |
 | **04** | [04. Random Sampling, Sorting & Searching](notebooks/04_random_sampling_and_sorting.ipynb) | 46–60 | `★☆☆` - `★★☆` | PRNG distributions, Cauchy matrix, dtype limits, pairwise Euclidean distance, `argsort` |
@@ -77,14 +103,12 @@ All 100 exercises are organized across 7 progressive topic notebooks:
 
 ---
 
-## 📋 Master Index & Progress Tracker
-
-Use the checkboxes below to track your manual progress as you solve the exercises:
+## 📋 Master Progress Tracker & Checklist
 
 <details open>
 <summary><b>Click to expand / collapse all 100 exercises</b></summary>
 
-| # | Status | Exercise Title | Practice Notebook | Diff | Reference |
+| # | Status | Exercise Title | Practice Notebook | Diff | Reference Solution |
 |:---:|:---:|---|---|:---:|:---:|
 | **01** | [ ] | Import numpy as `np` and print version | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#01-import-numpy-as-np-and-print-version-) |
 | **02** | [ ] | Print numpy configuration | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#02-print-numpy-configuration-) |
@@ -193,9 +217,9 @@ Use the checkboxes below to track your manual progress as you solve the exercise
 
 ## 🎖️ Acknowledgments & Credits
 
-- **[Nicolas P. Rougier](https://github.com/rougier)** for curating the original open-source [100 numpy exercises](https://github.com/rougier/numpy-100).
-- **[Keith Galli](https://www.youtube.com/@KeithGalli)** for the YouTube tutorial [Solving 100 Python NumPy Problems! (From easy to difficult)](https://www.youtube.com/watch?v=PM504XhEVCU).
-- **The NumPy Community** for maintaining NumPy.
+- **[Nicolas P. Rougier](https://github.com/rougier)** for creating the benchmark [100 numpy exercises](https://github.com/rougier/numpy-100).
+- **[Keith Galli](https://www.youtube.com/@KeithGalli)** for the YouTube video challenge [Solving 100 Python NumPy Problems! (From easy to difficult)](https://www.youtube.com/watch?v=PM504XhEVCU).
+- **The NumPy Development Team** for their foundational library.
 
 ---
 
