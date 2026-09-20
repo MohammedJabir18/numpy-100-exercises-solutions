@@ -9,7 +9,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy 2.x](https://img.shields.io/badge/numpy-2.x%20Ready-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Lab%20%7C%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Tests Passing](https://img.shields.io/badge/tests-21%2F21%20passing-success?style=for-the-badge&logo=pytest&logoColor=white)](tests/test_exercises.py)
+[![Challenges](https://img.shields.io/badge/challenges-100%2F100-38BDF8?style=for-the-badge&logo=target&logoColor=white)](notebooks/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 [Quick Start](#-quick-start) • [Practice Notebooks](#-the-7-practice-notebooks) • [Reference Solutions](solutions/reference_solutions.md) • [100 Exercises Index](#-master-index--progress-tracker) • [Attribution](#-acknowledgments--credits)
@@ -26,7 +26,6 @@ This repository is built for **you to manually code, experiment, and solve all 1
 - 💡 **Collapsible Hints:** Need a nudge? Each problem includes a `<details>` dropdown hint with suggested functions (e.g. `np.pad`, `np.bincount`, `sliding_window_view`) without giving away the full answer right away.
 - 🎯 **Expected Outputs:** Know exactly what your code should produce before running it.
 - 📖 **Hidden Reference Solutions:** When you've solved an exercise (or get completely stuck), you can cross-check with the [Reference Solutions](solutions/reference_solutions.md).
-- 🧪 **Self-Verification Suite:** Run `python tests/test_exercises.py -v` to verify foundational algorithmic exercises.
 
 ---
 

@@ -28,14 +28,10 @@ ENV/
 env.bak/
 venv.bak/
 
-# Jupyter Notebooks
-.ipynb_checkpoints
+# Jupyter Notebooks & Checkpoints
+.ipynb_checkpoints/
 */.ipynb_checkpoints/*
-
-# Testing & Coverage
-.pytest_cache/
-.coverage
-htmlcov/
+*.ipynb_checkpoints
 
 # IDEs & OS
 .vscode/
@@ -44,3 +40,15 @@ htmlcov/
 *.swo
 .DS_Store
 Thumbs.db
+*.log
+
+# Internal Planning & Development Docs (Hidden from Learners)
+docs/
+docs/**
+
+# Developer Automated Test Suite (Hidden from Learners)
+tests/
+tests/**
+.pytest_cache/
+.coverage
+htmlcov/
