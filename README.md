@@ -34,8 +34,8 @@ This repository is built for **you to manually code, experiment, and solve all 1
 
 ### 1. Clone & Navigate
 ```bash
-git clone https://github.com/your-username/numpy-100-mastery.git
-cd numpy-100-mastery
+git clone https://github.com/MohammedJabir18/numpy-100-exercises-solutions.git
+cd numpy-100-exercises-solutions
 ```
 
 ### 2. Setup Virtual Environment
