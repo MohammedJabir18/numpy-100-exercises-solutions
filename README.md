@@ -8,7 +8,7 @@
 
 [![Author](https://img.shields.io/badge/Challenger-Mohammed%20Jabir-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohammedJabir18)
 [![Challenge Status](https://img.shields.io/badge/Challenge-In%20Progress-F59E0B?style=for-the-badge&logo=target&logoColor=white)](notebooks/)
-[![Progress](https://img.shields.io/badge/Progress-0%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
+[![Progress](https://img.shields.io/badge/Progress-15%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
 [![NumPy 2.x](https://img.shields.io/badge/numpy-2.x%20Ready-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -30,7 +30,7 @@ Welcome! I created this repository as a public commitment to manually tackle and
 4. **Public Progress:** Continuously commit and check off challenges in the tracker below as I complete them.
 
 ```text
-Current Progress: [░░░░░░░░░░░░░░░░░░░░] 0 / 100 Solved (0%)
+Current Progress: [███░░░░░░░░░░░░░░░░░] 15 / 100 Solved (15%)
 ```
 
 ---
@@ -91,15 +91,15 @@ Open [`notebooks/01_array_creation_and_basics.ipynb`](notebooks/01_array_creatio
 
 All 100 challenges are split into 7 progressive topics:
 
-| # | Practice Notebook | Exercises | Difficulty | Core Topics |
-|---|---|:---:|:---:|---|
-| **01** | [01. Array Basics & Creation](notebooks/01_array_creation_and_basics.ipynb) | 01–15 | `★☆☆` | Array creation, `nbytes`, memory size, zeros/ones, slicing reversal |
-| **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
-| **03** | [03. Math, Statistics & Broadcasting](notebooks/03_math_statistics_and_broadcasting.ipynb) | 31–45 | `★☆☆` - `★★☆` | `datetime64` calendars, in-place arithmetic (`out=`), generators, polar coordinates |
-| **04** | [04. Random Sampling, Sorting & Searching](notebooks/04_random_sampling_and_sorting.ipynb) | 46–60 | `★☆☆` - `★★☆` | PRNG distributions, Cauchy matrix, dtype limits, pairwise Euclidean distance, `argsort` |
-| **05** | [05. Data Types, Bins & Moving Windows](notebooks/05_dtypes_and_structured_arrays.ipynb) | 61–75 | `★★☆` - `★★★` | Array subclassing, `np.add.at` accumulation, bincount groupby, moving averages |
-| **06** | [06. Linear Algebra & Matrix Operations](notebooks/06_linear_algebra_and_matrix_ops.ipynb) | 76–85 | `★★☆` - `★★★` | `sliding_window_view`, vector line projections, matrix rank, symmetric matrices |
-| **07** | [07. Advanced Vectorization & Einsum](notebooks/07_advanced_vectorization_and_einsum.ipynb) | 86–100 | `★★☆` - `★★★` | Multi-batch `einsum`, Conway's Game of Life, Cartesian products, bootstrap CI |
+| # | Practice Notebook | Exercises | Status | Difficulty | Core Topics |
+|---|---|:---:|:---:|:---:|---|
+| **01** | [01. Array Basics & Creation](notebooks/01_array_creation_and_basics.ipynb) | 01–15 | ✅ **15 / 15** | `★☆☆` | Array creation, `nbytes`, memory size, zeros/ones, slicing reversal |
+| **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
+| **03** | [03. Math, Statistics & Broadcasting](notebooks/03_math_statistics_and_broadcasting.ipynb) | 31–45 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | `datetime64` calendars, in-place arithmetic (`out=`), generators, polar coordinates |
+| **04** | [04. Random Sampling, Sorting & Searching](notebooks/04_random_sampling_and_sorting.ipynb) | 46–60 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | PRNG distributions, Cauchy matrix, dtype limits, pairwise Euclidean distance, `argsort` |
+| **05** | [05. Data Types, Bins & Moving Windows](notebooks/05_dtypes_and_structured_arrays.ipynb) | 61–75 | ⏳ **0 / 15** | `★★☆` - `★★★` | Array subclassing, `np.add.at` accumulation, bincount groupby, moving averages |
+| **06** | [06. Linear Algebra & Matrix Operations](notebooks/06_linear_algebra_and_matrix_ops.ipynb) | 76–85 | ⏳ **0 / 10** | `★★☆` - `★★★` | `sliding_window_view`, vector line projections, matrix rank, symmetric matrices |
+| **07** | [07. Advanced Vectorization & Einsum](notebooks/07_advanced_vectorization_and_einsum.ipynb) | 86–100 | ⏳ **0 / 15** | `★★☆` - `★★★` | Multi-batch `einsum`, Conway's Game of Life, Cartesian products, bootstrap CI |
 
 ---
 
@@ -110,21 +110,21 @@ All 100 challenges are split into 7 progressive topics:
 
 | # | Status | Exercise Title | Practice Notebook | Diff | Reference Solution |
 |:---:|:---:|---|---|:---:|:---:|
-| **01** | [ ] | Import numpy as `np` and print version | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#01-import-numpy-as-np-and-print-version-) |
-| **02** | [ ] | Print numpy configuration | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#02-print-numpy-configuration-) |
-| **03** | [ ] | Create a null vector of size 10 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#03-create-a-null-vector-of-size-10-) |
-| **04** | [ ] | Find the memory size of any array | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#04-find-the-memory-size-of-an-array-) |
-| **05** | [ ] | Get documentation of numpy add function | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#05-get-documentation-of-npadd-from-command-line--code-) |
-| **06** | [ ] | Create null vector of size 10 but fifth value is 1 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#06-create-a-null-vector-of-size-10-but-fifth-value-is-1-) |
-| **07** | [ ] | Create vector with values ranging from 10 to 49 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#07-create-a-vector-with-values-ranging-from-10-to-49-) |
-| **08** | [ ] | Reverse a vector (first element becomes last) | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#08-reverse-a-vector-first-element-becomes-last-) |
-| **09** | [ ] | Create 3x3 matrix with values ranging from 0 to 8 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#09-create-a-3x3-matrix-with-values-ranging-from-0-to-8-) |
-| **10** | [ ] | Find indices of non-zero elements from `[1,2,0,0,4,0]` | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#10-find-indices-of-non-zero-elements-from-1-2-0-0-4-0-) |
-| **11** | [ ] | Create a 3x3 identity matrix | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#11-create-a-3x3-identity-matrix-) |
-| **12** | [ ] | Create a 3x3x3 array with random values | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#12-create-a-3x3x3-array-with-random-values-) |
-| **13** | [ ] | Create a 10x10 array with random values and find min/max | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#13-create-a-10x10-array-with-random-values-and-find-min-and-max-) |
-| **14** | [ ] | Create a random vector of size 30 and find mean value | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#14-create-a-random-vector-of-size-30-and-find-the-mean-value-) |
-| **15** | [ ] | Create a 2D array with 1 on border and 0 inside | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#15-create-a-2d-array-with-1-on-the-border-and-0-inside-) |
+| **01** | [x] | Import numpy as `np` and print version | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#01-import-numpy-as-np-and-print-version-) |
+| **02** | [x] | Print numpy configuration | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#02-print-numpy-configuration-) |
+| **03** | [x] | Create a null vector of size 10 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#03-create-a-null-vector-of-size-10-) |
+| **04** | [x] | Find the memory size of any array | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#04-find-the-memory-size-of-an-array-) |
+| **05** | [x] | Get documentation of numpy add function | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#05-get-documentation-of-npadd-from-command-line--code-) |
+| **06** | [x] | Create null vector of size 10 but fifth value is 1 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#06-create-a-null-vector-of-size-10-but-fifth-value-is-1-) |
+| **07** | [x] | Create vector with values ranging from 10 to 49 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#07-create-a-vector-with-values-ranging-from-10-to-49-) |
+| **08** | [x] | Reverse a vector (first element becomes last) | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#08-reverse-a-vector-first-element-becomes-last-) |
+| **09** | [x] | Create 3x3 matrix with values ranging from 0 to 8 | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#09-create-a-3x3-matrix-with-values-ranging-from-0-to-8-) |
+| **10** | [x] | Find indices of non-zero elements from `[1,2,0,0,4,0]` | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#10-find-indices-of-non-zero-elements-from-1-2-0-0-4-0-) |
+| **11** | [x] | Create a 3x3 identity matrix | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#11-create-a-3x3-identity-matrix-) |
+| **12** | [x] | Create a 3x3x3 array with random values | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#12-create-a-3x3x3-array-with-random-values-) |
+| **13** | [x] | Create a 10x10 array with random values and find min/max | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#13-create-a-10x10-array-with-random-values-and-find-min-and-max-) |
+| **14** | [x] | Create a random vector of size 30 and find mean value | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#14-create-a-random-vector-of-size-30-and-find-the-mean-value-) |
+| **15** | [x] | Create a 2D array with 1 on border and 0 inside | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#15-create-a-2d-array-with-1-on-the-border-and-0-inside-) |
 | **16** | [ ] | Add a border (filled with 0's) around an existing array | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#16-add-a-border-filled-with-0s-around-an-existing-array-) |
 | **17** | [ ] | Result of expressions with NaN and Inf | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#17-result-of-expressions-with-nan-and-inf-) |
 | **18** | [ ] | Create 5x5 matrix with values 1,2,3,4 below diagonal | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#18-create-a-5x5-matrix-with-values-1234-just-below-diagonal-) |
