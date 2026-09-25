@@ -8,7 +8,7 @@
 
 [![Author](https://img.shields.io/badge/Challenger-Mohammed%20Jabir-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohammedJabir18)
 [![Challenge Status](https://img.shields.io/badge/Challenge-In%20Progress-F59E0B?style=for-the-badge&logo=target&logoColor=white)](notebooks/)
-[![Progress](https://img.shields.io/badge/Progress-15%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
+[![Progress](https://img.shields.io/badge/Progress-20%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
 [![NumPy 2.x](https://img.shields.io/badge/numpy-2.x%20Ready-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -30,7 +30,7 @@ Welcome! I created this repository as a public commitment to manually tackle and
 4. **Public Progress:** Continuously commit and check off challenges in the tracker below as I complete them.
 
 ```text
-Current Progress: [███░░░░░░░░░░░░░░░░░] 15 / 100 Solved (15%)
+Current Progress: [████░░░░░░░░░░░░░░░░] 20 / 100 Solved (20%)
 ```
 
 ---
@@ -94,7 +94,7 @@ All 100 challenges are split into 7 progressive topics:
 | # | Practice Notebook | Exercises | Status | Difficulty | Core Topics |
 |---|---|:---:|:---:|:---:|---|
 | **01** | [01. Array Basics & Creation](notebooks/01_array_creation_and_basics.ipynb) | 01–15 | ✅ **15 / 15** | `★☆☆` | Array creation, `nbytes`, memory size, zeros/ones, slicing reversal |
-| **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
+| **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | ⏳ **5 / 15** | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
 | **03** | [03. Math, Statistics & Broadcasting](notebooks/03_math_statistics_and_broadcasting.ipynb) | 31–45 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | `datetime64` calendars, in-place arithmetic (`out=`), generators, polar coordinates |
 | **04** | [04. Random Sampling, Sorting & Searching](notebooks/04_random_sampling_and_sorting.ipynb) | 46–60 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | PRNG distributions, Cauchy matrix, dtype limits, pairwise Euclidean distance, `argsort` |
 | **05** | [05. Data Types, Bins & Moving Windows](notebooks/05_dtypes_and_structured_arrays.ipynb) | 61–75 | ⏳ **0 / 15** | `★★☆` - `★★★` | Array subclassing, `np.add.at` accumulation, bincount groupby, moving averages |
@@ -125,11 +125,11 @@ All 100 challenges are split into 7 progressive topics:
 | **13** | [x] | Create a 10x10 array with random values and find min/max | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#13-create-a-10x10-array-with-random-values-and-find-min-and-max-) |
 | **14** | [x] | Create a random vector of size 30 and find mean value | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#14-create-a-random-vector-of-size-30-and-find-the-mean-value-) |
 | **15** | [x] | Create a 2D array with 1 on border and 0 inside | [01_basics.ipynb](notebooks/01_array_creation_and_basics.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#15-create-a-2d-array-with-1-on-the-border-and-0-inside-) |
-| **16** | [ ] | Add a border (filled with 0's) around an existing array | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#16-add-a-border-filled-with-0s-around-an-existing-array-) |
-| **17** | [ ] | Result of expressions with NaN and Inf | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#17-result-of-expressions-with-nan-and-inf-) |
-| **18** | [ ] | Create 5x5 matrix with values 1,2,3,4 below diagonal | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#18-create-a-5x5-matrix-with-values-1234-just-below-diagonal-) |
-| **19** | [ ] | Create 8x8 matrix with checkerboard pattern | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#19-create-an-8x8-matrix-and-fill-it-with-a-checkerboard-pattern-) |
-| **20** | [ ] | Shape (6,7,8) array: index (x,y,z) of 100th element | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#20-shape-678-array-index-xyz-of-100th-element-) |
+| **16** | [x] | Add a border (filled with 0's) around an existing array | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#16-add-a-border-filled-with-0s-around-an-existing-array-) |
+| **17** | [x] | Result of expressions with NaN and Inf | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#17-result-of-expressions-with-nan-and-inf-) |
+| **18** | [x] | Create 5x5 matrix with values 1,2,3,4 below diagonal | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#18-create-a-5x5-matrix-with-values-1234-just-below-diagonal-) |
+| **19** | [x] | Create 8x8 matrix with checkerboard pattern | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#19-create-an-8x8-matrix-and-fill-it-with-a-checkerboard-pattern-) |
+| **20** | [x] | Shape (6,7,8) array: index (x,y,z) of 100th element | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#20-shape-678-array-index-xyz-of-100th-element-) |
 | **21** | [ ] | Create checkerboard 8x8 matrix using `np.tile` | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#21-create-a-checkerboard-8x8-matrix-using-nptile-) |
 | **22** | [ ] | Normalize a 5x5 random matrix | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#22-normalize-a-5x5-random-matrix-) |
 | **23** | [ ] | Custom dtype describing RGBA color | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#23-create-custom-dtype-describing-rgba-color-4-unsigned-bytes-) |
