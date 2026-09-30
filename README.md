@@ -8,7 +8,7 @@
 
 [![Author](https://img.shields.io/badge/Challenger-Mohammed%20Jabir-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohammedJabir18)
 [![Challenge Status](https://img.shields.io/badge/Challenge-In%20Progress-F59E0B?style=for-the-badge&logo=target&logoColor=white)](notebooks/)
-[![Progress](https://img.shields.io/badge/Progress-20%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
+[![Progress](https://img.shields.io/badge/Progress-30%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
 [![NumPy 2.x](https://img.shields.io/badge/numpy-2.x%20Ready-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -30,7 +30,7 @@ Welcome! I created this repository as a public commitment to manually tackle and
 4. **Public Progress:** Continuously commit and check off challenges in the tracker below as I complete them.
 
 ```text
-Current Progress: [████░░░░░░░░░░░░░░░░] 20 / 100 Solved (20%)
+Current Progress: [██████░░░░░░░░░░░░░░] 30 / 100 Solved (30%)
 ```
 
 ---
@@ -94,7 +94,7 @@ All 100 challenges are split into 7 progressive topics:
 | # | Practice Notebook | Exercises | Status | Difficulty | Core Topics |
 |---|---|:---:|:---:|:---:|---|
 | **01** | [01. Array Basics & Creation](notebooks/01_array_creation_and_basics.ipynb) | 01–15 | ✅ **15 / 15** | `★☆☆` | Array creation, `nbytes`, memory size, zeros/ones, slicing reversal |
-| **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | ⏳ **5 / 15** | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
+| **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | ✅ **15 / 15** | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
 | **03** | [03. Math, Statistics & Broadcasting](notebooks/03_math_statistics_and_broadcasting.ipynb) | 31–45 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | `datetime64` calendars, in-place arithmetic (`out=`), generators, polar coordinates |
 | **04** | [04. Random Sampling, Sorting & Searching](notebooks/04_random_sampling_and_sorting.ipynb) | 46–60 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | PRNG distributions, Cauchy matrix, dtype limits, pairwise Euclidean distance, `argsort` |
 | **05** | [05. Data Types, Bins & Moving Windows](notebooks/05_dtypes_and_structured_arrays.ipynb) | 61–75 | ⏳ **0 / 15** | `★★☆` - `★★★` | Array subclassing, `np.add.at` accumulation, bincount groupby, moving averages |
@@ -130,16 +130,16 @@ All 100 challenges are split into 7 progressive topics:
 | **18** | [x] | Create 5x5 matrix with values 1,2,3,4 below diagonal | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#18-create-a-5x5-matrix-with-values-1234-just-below-diagonal-) |
 | **19** | [x] | Create 8x8 matrix with checkerboard pattern | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#19-create-an-8x8-matrix-and-fill-it-with-a-checkerboard-pattern-) |
 | **20** | [x] | Shape (6,7,8) array: index (x,y,z) of 100th element | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#20-shape-678-array-index-xyz-of-100th-element-) |
-| **21** | [ ] | Create checkerboard 8x8 matrix using `np.tile` | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#21-create-a-checkerboard-8x8-matrix-using-nptile-) |
-| **22** | [ ] | Normalize a 5x5 random matrix | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#22-normalize-a-5x5-random-matrix-) |
-| **23** | [ ] | Custom dtype describing RGBA color | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#23-create-custom-dtype-describing-rgba-color-4-unsigned-bytes-) |
-| **24** | [ ] | Multiply 5x3 matrix by 3x2 matrix (`@`) | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#24-multiply-a-5x3-matrix-by-a-3x2-matrix-) |
-| **25** | [ ] | Negate elements between 3 and 8 in place | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#25-given-1d-array-negate-all-elements-between-3-and-8-in-place-) |
-| **26** | [ ] | Output of `sum(range(5), -1)` vs `np.sum` | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#26-output-of-sumrange5--1-vs-npsumrange5--1-) |
-| **27** | [ ] | Legal expressions with integer vector Z | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#27-legal-expressions-with-integer-vector-z-) |
-| **28** | [ ] | Floating point comparisons and expressions | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#28-result-of-floating-point-comparison-expressions-) |
-| **29** | [ ] | Round away from zero for float array | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#29-how-to-round-away-from-zero-a-float-array-) |
-| **30** | [ ] | Common values between two arrays | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#30-how-to-find-common-values-between-two-arrays-) |
+| **21** | [x] | Create checkerboard 8x8 matrix using `np.tile` | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#21-create-a-checkerboard-8x8-matrix-using-nptile-) |
+| **22** | [x] | Normalize a 5x5 random matrix | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#22-normalize-a-5x5-random-matrix-) |
+| **23** | [x] | Custom dtype describing RGBA color | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#23-create-custom-dtype-describing-rgba-color-4-unsigned-bytes-) |
+| **24** | [x] | Multiply 5x3 matrix by 3x2 matrix (`@`) | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#24-multiply-a-5x3-matrix-by-a-3x2-matrix-) |
+| **25** | [x] | Negate elements between 3 and 8 in place | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#25-given-1d-array-negate-all-elements-between-3-and-8-in-place-) |
+| **26** | [x] | Output of `sum(range(5), -1)` vs `np.sum` | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#26-output-of-sumrange5--1-vs-npsumrange5--1-) |
+| **27** | [x] | Legal expressions with integer vector Z | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#27-legal-expressions-with-integer-vector-z-) |
+| **28** | [x] | Floating point comparisons and expressions | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#28-result-of-floating-point-comparison-expressions-) |
+| **29** | [x] | Round away from zero for float array | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#29-how-to-round-away-from-zero-a-float-array-) |
+| **30** | [x] | Common values between two arrays | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#30-how-to-find-common-values-between-two-arrays-) |
 | **31** | [ ] | How to ignore all numpy warnings | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#31-how-to-ignore-all-numpy-warnings-) |
 | **32** | [ ] | Is `np.sqrt(-1) == np.emath.sqrt(-1)` true? | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#32-is-npsqrt-1--npemathsqrt-1-true-) |
 | **33** | [ ] | Dates of yesterday, today, and tomorrow | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#33-get-dates-of-yesterday-today-and-tomorrow-) |
