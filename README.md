@@ -8,7 +8,7 @@
 
 [![Author](https://img.shields.io/badge/Challenger-Mohammed%20Jabir-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MohammedJabir18)
 [![Challenge Status](https://img.shields.io/badge/Challenge-In%20Progress-F59E0B?style=for-the-badge&logo=target&logoColor=white)](notebooks/)
-[![Progress](https://img.shields.io/badge/Progress-30%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
+[![Progress](https://img.shields.io/badge/Progress-45%20%2F%20100%20Solved-38BDF8?style=for-the-badge)](notebooks/)
 [![NumPy 2.x](https://img.shields.io/badge/numpy-2.x%20Ready-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -30,7 +30,7 @@ Welcome! I created this repository as a public commitment to manually tackle and
 4. **Public Progress:** Continuously commit and check off challenges in the tracker below as I complete them.
 
 ```text
-Current Progress: [██████░░░░░░░░░░░░░░] 30 / 100 Solved (30%)
+Current Progress: [█████████░░░░░░░░░░░] 45 / 100 Solved (45%)
 ```
 
 ---
@@ -95,7 +95,7 @@ All 100 challenges are split into 7 progressive topics:
 |---|---|:---:|:---:|:---:|---|
 | **01** | [01. Array Basics & Creation](notebooks/01_array_creation_and_basics.ipynb) | 01–15 | ✅ **15 / 15** | `★☆☆` | Array creation, `nbytes`, memory size, zeros/ones, slicing reversal |
 | **02** | [02. Indexing, Slicing & Reshaping](notebooks/02_indexing_slicing_and_reshaping.ipynb) | 16–30 | ✅ **15 / 15** | `★☆☆` - `★★☆` | `np.pad`, IEEE-754 NaNs, checkerboards, unraveling coordinates, custom RGBA dtypes |
-| **03** | [03. Math, Statistics & Broadcasting](notebooks/03_math_statistics_and_broadcasting.ipynb) | 31–45 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | `datetime64` calendars, in-place arithmetic (`out=`), generators, polar coordinates |
+| **03** | [03. Math, Statistics & Broadcasting](notebooks/03_math_statistics_and_broadcasting.ipynb) | 31–45 | ✅ **15 / 15** | `★☆☆` - `★★☆` | `datetime64` calendars, in-place arithmetic (`out=`), generators, polar coordinates |
 | **04** | [04. Random Sampling, Sorting & Searching](notebooks/04_random_sampling_and_sorting.ipynb) | 46–60 | ⏳ **0 / 15** | `★☆☆` - `★★☆` | PRNG distributions, Cauchy matrix, dtype limits, pairwise Euclidean distance, `argsort` |
 | **05** | [05. Data Types, Bins & Moving Windows](notebooks/05_dtypes_and_structured_arrays.ipynb) | 61–75 | ⏳ **0 / 15** | `★★☆` - `★★★` | Array subclassing, `np.add.at` accumulation, bincount groupby, moving averages |
 | **06** | [06. Linear Algebra & Matrix Operations](notebooks/06_linear_algebra_and_matrix_ops.ipynb) | 76–85 | ⏳ **0 / 10** | `★★☆` - `★★★` | `sliding_window_view`, vector line projections, matrix rank, symmetric matrices |
@@ -140,21 +140,21 @@ All 100 challenges are split into 7 progressive topics:
 | **28** | [x] | Floating point comparisons and expressions | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#28-result-of-floating-point-comparison-expressions-) |
 | **29** | [x] | Round away from zero for float array | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#29-how-to-round-away-from-zero-a-float-array-) |
 | **30** | [x] | Common values between two arrays | [02_indexing.ipynb](notebooks/02_indexing_slicing_and_reshaping.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#30-how-to-find-common-values-between-two-arrays-) |
-| **31** | [ ] | How to ignore all numpy warnings | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#31-how-to-ignore-all-numpy-warnings-) |
-| **32** | [ ] | Is `np.sqrt(-1) == np.emath.sqrt(-1)` true? | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#32-is-npsqrt-1--npemathsqrt-1-true-) |
-| **33** | [ ] | Dates of yesterday, today, and tomorrow | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#33-get-dates-of-yesterday-today-and-tomorrow-) |
-| **34** | [ ] | Dates corresponding to July 2016 | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#34-get-all-dates-corresponding-to-month-of-july-2016-) |
-| **35** | [ ] | Compute `((A+B)*(-A/2))` in place | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#35-compute-ab-a2-in-place-without-copy-) |
-| **36** | [ ] | Extract integer part of float array (4 methods) | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#36-extract-integer-part-of-float-array-using-4-methods-) |
-| **37** | [ ] | 5x5 matrix with row values ranging 0 to 4 | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#37-create-a-5x5-matrix-with-row-values-ranging-from-0-to-4-) |
-| **38** | [ ] | Build array from integer generator (`np.fromiter`) | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#38-build-array-from-a-generator-yielding-10-integers-) |
-| **39** | [ ] | Vector of size 10 from 0 to 1 excluded | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#39-create-vector-of-size-10-from-0-to-1-both-excluded-) |
-| **40** | [ ] | Random vector of size 10 sorted | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#40-create-a-random-vector-of-size-10-and-sort-it-) |
-| **41** | [ ] | Sum small array faster than `np.sum` (`add.reduce`) | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#41-sum-a-small-array-faster-than-npsum-) |
-| **42** | [ ] | Check if two random arrays A and B are equal | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#42-check-if-two-random-arrays-a-and-b-are-equal-) |
-| **43** | [ ] | Make array immutable / read-only | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#43-make-an-array-immutable-read-only-) |
-| **44** | [ ] | Convert Cartesian coordinates to polar coordinates | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#44-convert-10x2-cartesian-coordinates-to-polar-coordinates-) |
-| **45** | [ ] | Replace maximum value in vector with 0 | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#45-create-random-vector-size-10-and-replace-max-value-with-0-) |
+| **31** | [x] | How to ignore all numpy warnings | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#31-how-to-ignore-all-numpy-warnings-) |
+| **32** | [x] | Is `np.sqrt(-1) == np.emath.sqrt(-1)` true? | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#32-is-npsqrt-1--npemathsqrt-1-true-) |
+| **33** | [x] | Dates of yesterday, today, and tomorrow | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#33-get-dates-of-yesterday-today-and-tomorrow-) |
+| **34** | [x] | Dates corresponding to July 2016 | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#34-get-all-dates-corresponding-to-month-of-july-2016-) |
+| **35** | [x] | Compute `((A+B)*(-A/2))` in place | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#35-compute-ab-a2-in-place-without-copy-) |
+| **36** | [x] | Extract integer part of float array (4 methods) | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#36-extract-integer-part-of-float-array-using-4-methods-) |
+| **37** | [x] | 5x5 matrix with row values ranging 0 to 4 | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#37-create-a-5x5-matrix-with-row-values-ranging-from-0-to-4-) |
+| **38** | [x] | Build array from integer generator (`np.fromiter`) | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#38-build-array-from-a-generator-yielding-10-integers-) |
+| **39** | [x] | Vector of size 10 from 0 to 1 excluded | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#39-create-vector-of-size-10-from-0-to-1-both-excluded-) |
+| **40** | [x] | Random vector of size 10 sorted | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#40-create-a-random-vector-of-size-10-and-sort-it-) |
+| **41** | [x] | Sum small array faster than `np.sum` (`add.reduce`) | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#41-sum-a-small-array-faster-than-npsum-) |
+| **42** | [x] | Check if two random arrays A and B are equal | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#42-check-if-two-random-arrays-a-and-b-are-equal-) |
+| **43** | [x] | Make array immutable / read-only | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#43-make-an-array-immutable-read-only-) |
+| **44** | [x] | Convert Cartesian coordinates to polar coordinates | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#44-convert-10x2-cartesian-coordinates-to-polar-coordinates-) |
+| **45** | [x] | Replace maximum value in vector with 0 | [03_math.ipynb](notebooks/03_math_statistics_and_broadcasting.ipynb) | `★☆☆` | [Check](solutions/reference_solutions.md#45-create-random-vector-size-10-and-replace-max-value-with-0-) |
 | **46** | [ ] | Structured array covering [0,1]x[0,1] | [04_random.ipynb](notebooks/04_random_sampling_and_sorting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#46-structured-array-with-x-y-coordinates-covering-01x01-) |
 | **47** | [ ] | Cauchy matrix C construction | [04_random.ipynb](notebooks/04_random_sampling_and_sorting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#47-given-two-arrays-x-and-y-construct-cauchy-matrix-c-) |
 | **48** | [ ] | Min/max limits for scalar dtypes (`iinfo`/`finfo`) | [04_random.ipynb](notebooks/04_random_sampling_and_sorting.ipynb) | `★★☆` | [Check](solutions/reference_solutions.md#48-print-min-and-max-representable-values-for-scalar-dtypes-) |
